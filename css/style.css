@@ -1,0 +1,46 @@
+html {
+	background-color: #f3f3f3;
+}
+.demo-wrapper {
+	width: 30%;
+	margin: 0 auto;
+}
+.demo-wrapper p {
+	font-size: 14px;
+}
+.demo-wrapper .alert {
+	text-align: center;
+	padding: 10px;
+	background-color: #F99;
+}
+.demo-wrapper pre {
+	padding: 10px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	-webkit-box-shadow: inset 1px 1px 3px 0px rgba(0, 0, 0, .2);
+	box-shadow: inset 1px 1px 3px 0px rgba(0, 0, 0, .2);
+}
+.demo-wrapper h3 {
+	background-color: #000;
+	color: #f3f3f3;
+	padding: 10px;
+	border-radius: 3px;
+}
+.demo-wrapper .no-hyphens p {
+	text-align: justify;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	hyphens: none;
+}
+.demo-wrapper .with-hyphens p {
+	text-align: justify;
+	-webkit-hyphens: auto;
+   	-moz-hyphens: auto;
+	hyphens: auto;
+}
+.demo-wrapper .with-hyphens-manual p {
+	text-align: justify;
+	-webkit-hyphens: manual;
+   	-moz-hyphens: manual;
+	hyphens: manual;
+}
